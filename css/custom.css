@@ -1,9 +1,3 @@
-/*!
- * Start Bootstrap - Creative Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
-
 html,
 body {
     width: 100%;
@@ -130,6 +124,17 @@ aside {
 .navbar-default .nav > li.active>a:hover,
 .navbar-default .nav>li.active>a:focus:hover {
     background-color: transparent;
+}
+
+@media(min-width: 330px) {
+    header {
+        height: 661px;
+    }
+    header .header-content{
+    top: -510px;
+    padding: 35px 22px !important;
+    }
+
 }
 
 @media(min-width:768px) {
